@@ -3,6 +3,7 @@ import React, { useState } from 'react'
 export const SingleBar = (props) => {
     const [isExpanded, setIsExpanded] = useState(false)
     const {data} = props;
+    console.log(data)
   return (
     <div>
     <div className='border h-12 border-solid rounded flex items-center justify-start my-3'>

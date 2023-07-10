@@ -18,7 +18,7 @@ export const TreeFolder = (props) => {
         }
         {/* children && isExpanded && children.map((c) => <SingleBar key={c.name} data={c.name} className='m-4'/>) */}
      </div>
-    {children &&isExpanded  && <div className={`m-4 top-6 w-10/12 z-20 `}>{children}</div>}
+    {children &&isExpanded  && <div className={`m-4 w-10/12 `}>{children}</div>}
   </>
   )
 }
